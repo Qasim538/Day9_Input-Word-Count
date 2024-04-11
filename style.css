@@ -44,6 +44,7 @@ img {
   height: 100vh;
 }
 
+
 .counter-div {
   width: 40rem;
   border: 1px solid var(--grey);
@@ -53,6 +54,7 @@ img {
   text-align: center;
   border-radius:5px ;
 }
+
 .counter-div > *{
   margin-bottom: 2rem;
 }
@@ -61,19 +63,5 @@ img {
   font-size: 4rem;
 }
 
-.buttons button {
-  padding: 1rem;
-  margin: 0 1rem;
-  font-size: 1.5 rem;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  /* color: var(--white); */
-  font-weight: 700;
-  cursor: pointer;
-}
 
-.buttons button:active {
-  scale: 0.95;
-}
 
